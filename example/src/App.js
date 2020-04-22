@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'socialwall-reactlib'
+import { Socialwall } from 'socialwall-reactlib'
 import 'socialwall-reactlib/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Socialwall />
 }
 
 export default App
