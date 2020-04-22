@@ -1,10 +1,10 @@
 {
   "name": "socialwall-reactlib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Socialwall react library for using as dashboard feed in all Health Record Stack apps",
   "author": "sanishtj",
   "license": "MIT",
-  "repository": "sanishtj/socialwall-reactlib",
+  "repository": "Health-Record-Stack/socialwall-reactlib",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -46,14 +46,12 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
-    "scriptjs": "^2.5.9"
+    "scriptjs": "^2.5.9",
+    "bootstrap": "^4.4.1",
+    "decode-html": "^2.0.0"
   },
   "files": [
     "dist"
   ],
-  "dependencies": {
-    "bootstrap": "^4.4.1",
-    "decode-html": "^2.0.0",
-    "react-bootstrap": "^1.0.0"
-  }
+  "dependencies": {}
 }
